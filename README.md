@@ -15,9 +15,20 @@ and no build step, so it can be deployed with GitHub Pages as-is.
 | `outputs.html` | Outputs |
 | `legal.html` | Privacy policy, legal notice, accessibility statement (footer-only, not in the nav) |
 
-`styles.css` holds the whole design system (colour, type, layout). `assets/logo.svg`
-is a placeholder mark — swap in the real Kizazi Kijacho lockup file under the same
-name (or update the `src` in each page's `<head>`/header) once it's available.
+`styles.css` holds the whole design system (colour, type, layout). Real logos now
+live under `assets/`:
+
+- `assets/kizazi-logo-horizontal.png` — the Kizazi Kijacho lockup, used in the
+  header, hero, and footer on every page.
+- `assets/logos/funders/` — SERI, ERC, the Swedish Research Council, FCDO, the
+  Conrad N. Hilton Foundation, SNSF, and the Research Council of Norway.
+- `assets/logos/partners/` — EDI Global, d.tree, EGPAF, Ifakara Health
+  Institute, and Thrive.
+
+Any institution not yet in those folders (University of Zurich, IIES, Yale,
+FAIR/NHH, University of Chile, Chr. Michelsen Institute, Government of
+Tanzania) still shows as a dashed placeholder on the Partners page, under
+"Other partners — logos pending confirmation," until a logo file is supplied.
 
 ## Deploy on GitHub Pages
 
