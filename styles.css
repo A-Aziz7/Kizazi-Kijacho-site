@@ -212,12 +212,12 @@ section.wide { padding: 76px 0; }
   font-size: 56px;
   font-weight: 300;
   line-height: 1.15;
-  max-width: 14ch;
+  max-width: 24ch;
 }
 .hero p.lede {
   font-size: 20px;
   font-weight: 400;
-  max-width: 46ch;
+  max-width: 70ch;
   color: #E7EEF7;
 }
 .hero-actions {
