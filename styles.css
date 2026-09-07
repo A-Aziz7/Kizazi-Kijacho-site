@@ -386,6 +386,8 @@ section.wide { padding: 76px 0; }
   width: 160px;
   height: 160px;
   margin: 0 auto;
+  object-fit: cover;
+  display: block;
 }
 .photo-placeholder.wide { min-height: 320px; }
 .photo-placeholder.small { min-height: 140px; }
@@ -534,6 +536,7 @@ section.wide { padding: 76px 0; }
 .collab-cell .ph-mini {
   width: 64px; height: 64px; border-radius: 50%;
   background: var(--dashed-bg); border: 1px dashed var(--dashed-border);
+  object-fit: cover; display: block;
 }
 .collab-cell h4 { font-size: 17px; font-weight: 600; color: var(--navy); }
 .collab-cell .inst { font-size: 14px; color: var(--secondary-text); }
