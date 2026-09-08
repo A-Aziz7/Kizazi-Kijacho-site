@@ -190,7 +190,7 @@ section.wide { padding: 76px 0; }
 /* ---------- Hero (Overview) ---------- */
 .hero {
   background:
-    linear-gradient(rgba(18,61,110,0.78), rgba(18,61,110,0.88)),
+    linear-gradient(rgba(18,61,110,0.35), rgba(18,61,110,0.75)),
     url('assets/photos/field/Field_Photo_3.jpg') center/cover no-repeat;
   color: var(--white);
   padding: 64px 0 0;
