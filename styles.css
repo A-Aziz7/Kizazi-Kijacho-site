@@ -548,8 +548,7 @@ section.wide { padding: 76px 0; }
 .collab-cell summary::-webkit-details-marker { display: none; }
 .collab-cell .ph-mini {
   width: 64px; height: 64px; border-radius: 50%;
-  background: var(--dashed-bg); border: 1px dashed var(--dashed-border);
-  object-fit: cover; display: block;
+  object-fit: cover; object-position: center 20%; display: block;
 }
 .collab-cell h4 { font-size: 17px; font-weight: 600; color: var(--navy); }
 .collab-cell .inst { font-size: 14px; color: var(--secondary-text); }
