@@ -144,6 +144,19 @@ button:focus-visible,
   display: block;
 }
 
+.brand-icon {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+.brand-wordmark {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--navy);
+  white-space: nowrap;
+}
+.footer-brand .brand-wordmark { color: var(--white); }
+
 .main-nav ul {
   list-style: none;
   display: flex;
