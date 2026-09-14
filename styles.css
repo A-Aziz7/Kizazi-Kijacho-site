@@ -586,7 +586,6 @@ section.wide { padding: 76px 0; }
 }
 .partner-card .logo-img {
   background: var(--white);
-  border: 1px solid var(--card-border);
   min-height: 96px;
   display: flex;
   align-items: center;
