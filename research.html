@@ -221,6 +221,14 @@
       document.getElementById("panel-" + target).classList.add("is-visible");
     });
   });
+
+  // Open a specific pillar directly when linked with ?pillar=field / lab / longitudinal / implementation
+  var params = new URLSearchParams(window.location.search);
+  var requested = params.get("pillar");
+  var requestedCard = requested ? document.querySelector('.pillar-card[data-pillar="' + requested + '"]') : null;
+  if (requestedCard) {
+    requestedCard.click();
+  }
 </script>
 
 </body>

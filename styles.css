@@ -847,3 +847,58 @@ section.wide { padding: 76px 0; }
 @media (max-width: 560px) {
   .pillar-card { flex: 1 1 100%; }
 }
+
+/* ---------- About page: pillars puzzle diagram ---------- */
+.pillars-puzzle {
+  position: relative;
+  border: 1px solid rgba(18,61,110,0.18);
+}
+.pillars-puzzle-row {
+  display: flex;
+}
+.pillars-puzzle-tile {
+  flex: 1;
+  padding: 36px 40px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+.pillars-puzzle-tile.shade-a { background: #E8F0FA; }
+.pillars-puzzle-tile.shade-b { background: #D3E3F3; }
+.pillars-puzzle-tile:hover { filter: brightness(0.96); }
+
+.pillars-puzzle-num {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--navy);
+}
+.pillars-puzzle-title {
+  font-size: 23px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-top: 8px;
+  line-height: 1.25;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+}
+.pillars-puzzle-tile:hover .pillars-puzzle-title { text-decoration-color: var(--navy); }
+.pillars-puzzle-desc {
+  font-size: 15px;
+  color: var(--body-text);
+  margin-top: 12px;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
+/* Interlocking tabs — each circle is colored to match the tile it "belongs"
+   to, and overlaps the boundary into its neighbour, reading as a puzzle knob */
+.pillars-puzzle-tab {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(18,61,110,0.15);
+  pointer-events: none;
+  z-index: 2;
+}
