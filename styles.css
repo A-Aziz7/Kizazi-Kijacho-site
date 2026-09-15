@@ -739,6 +739,7 @@ section.wide { padding: 76px 0; }
   font-size: 14px;
   color: #C9D6E5;
 }
+.footer-bottom a { color: var(--white); }
 .footer-bottom .content {
   display: flex;
   justify-content: space-between;
