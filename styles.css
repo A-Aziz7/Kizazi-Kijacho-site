@@ -918,4 +918,9 @@ section.wide { padding: 76px 0; }
   .pillars-puzzle-row { flex-direction: column; }
   .pillars-puzzle-tile { flex: none; padding: 28px 24px; }
   .pillars-puzzle-tab { display: none; }
+  /* Re-alternate colors for the stacked order, since the desktop checkerboard
+     pattern puts tiles 2 and 3 on the same shade (they're diagonal opposites
+     in the 2x2 grid) — swap row 2's shades so the stacked list reads A,B,A,B */
+  .pillars-puzzle-row:nth-of-type(2) .pillars-puzzle-tile.shade-b { background: #E8F0FA; }
+  .pillars-puzzle-row:nth-of-type(2) .pillars-puzzle-tile.shade-a { background: #D3E3F3; }
 }
