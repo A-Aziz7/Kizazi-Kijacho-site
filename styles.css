@@ -913,3 +913,8 @@ section.wide { padding: 76px 0; }
   pointer-events: none;
   z-index: 2;
 }
+
+@media (max-width: 700px) {
+  .pillars-puzzle-row { flex-direction: column; }
+  .pillars-puzzle-tab { display: none; }
+}
