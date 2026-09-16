@@ -598,15 +598,15 @@ section.wide { padding: 76px 0; }
 }
 .partner-card .logo-img {
   background: var(--white);
-  min-height: 96px;
+  min-height: 112px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 12px;
-  padding: 14px;
+  padding: 16px;
 }
 .partner-card .logo-img img {
-  max-height: 72px;
+  max-height: 88px;
   max-width: 100%;
   width: auto;
   object-fit: contain;
